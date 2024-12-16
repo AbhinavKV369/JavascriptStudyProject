@@ -31,14 +31,21 @@ body{
     background: #000;
     color: aliceblue;
 }
+
 .kitchen-item-list li{
-background:rgb(255, 145, 0);
-list-style: none;
-height: 40px;
-margin-bottom: 10px;
-padding-left: 10px;
-font-weight: 600;
-font-size: 20px;
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background: rgb(230, 155, 5);
+    height: 40px;
+    margin-bottom: 3px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.kitchen-item-list li i {
+    margin-right: 10px;
+    color: aliceblue;
 }
