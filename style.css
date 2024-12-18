@@ -35,7 +35,6 @@ body{
 .kitchen-item-list li{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     list-style: none;
     background: rgb(230, 155, 5);
     height: 40px;
@@ -45,7 +44,8 @@ body{
     font-weight: 600;
     color: aliceblue;
 }
-.kitchen-item-list li i {
-    margin-right: 10px;
-    color: aliceblue;
+.kitchen-item-list li .fa-trash,.fa-edit {
+    flex-direction: row;
+    align-self: flex-end;
+    margin-left: auto;
 }
